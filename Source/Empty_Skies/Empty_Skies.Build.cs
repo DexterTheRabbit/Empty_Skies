@@ -14,10 +14,7 @@ public class Empty_Skies : ModuleRules
         // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 
         //Uncomment if you are using online features
-        PublicDependencyModuleNames.AddRange(new string[] { 
- 	"OnlineSubsystem",
- 	"OnlineSubsystemUtils"
- });
+        PublicDependencyModuleNames.AddRange(new string[] { "OnlineSubsystem","OnlineSubsystemUtils"});
         DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
 
     }
